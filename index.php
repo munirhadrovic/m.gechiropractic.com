@@ -7,7 +7,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Schaffnit Chiropractic & Rehabilitation </title>
+        <title>Tom & Eddie's </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="shortcut icon" href="../../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/demo.css"/>
@@ -37,7 +37,7 @@
         <div class="container">
             
             <header>
-                <h1> Schaffnit Chiropractic & Rehabilitation </h1>                    
+                <h1> <img src="first/img/logo.png" alt="Logo"> </h1>                    
                     <div id="findUSposition">
                       
                             <a href="tel:<?php echo $telephone ?>" class="callus callfind"><img src="images/call.png" alt="Call" style="float:left;"><p style='margin-top: 14px;'>Call US</p></a>
@@ -79,7 +79,7 @@
                                 console.log("nije nigdje uslo default ")
                                 var prostordugme=document.getElementById('findUS');
                                 var dugme= document.createElement('a');
-                                dugme.setAttribute('class', "callfind");
+                                dugme.setAttribute('class', "callfind findUS");
                                 dugme.setAttribute('href',"geo:0,0?q=1110 W. Lake Cook Road Suite 375 Buffalo Grove, IL 60089");
                                 dugme.innerHTML="<img src='images/location.png' alt='location' style='float:left;'><p style='margin-top: 14px;'>Find US</p>";
                                 prostordugme.appendChild(dugme);

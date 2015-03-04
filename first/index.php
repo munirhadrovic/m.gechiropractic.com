@@ -92,7 +92,7 @@
 		    <h1><img src="img/logo.png" alt="LOGO"></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-		    <h1>Mobile Site<a href="http://gechiropractic.com/" rel="external">  Clasic Site</a></h1>
+		    <h1>Mobile Site<a href="http://www.tomandeddies.com/" rel="external">  Clasic Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -111,8 +111,12 @@
 				        <!-- <p class="caption">This is another caption</p> -->
 				      </li>
 				      <li>
-				        <img src="img/slider-images/3slide.jpg" alt="">
+				        <img src="img/slider-images/3slide.png" alt="">
 				        <!-- <p class="caption">The third caption</p> -->
+				      </li>
+				      <li>
+				        <img src="img/slider-images/4slide.jpg" alt="">
+				        <p class="caption">Cheeseburgers</p>
 				      </li>
 				    </ul>
 			    </div>
@@ -178,53 +182,38 @@
 					
 						<div data-role="collapsible-set">	
 							<div data-role="collapsible" data-theme="<?php echo $theme ?>" data-content-theme="<?php echo $theme ?>" data-iconpos="right" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-							   <h3>Our Practice</h3>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Dr. Blake Schaffnit</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Meet the Team</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Map and Directions</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Schedule a Consultation</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Special Offers and Promtions</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">View Our Facility</a>
-							</div>
-							<div data-role="collapsible" data-theme="<?php echo $theme ?>" data-content-theme="<?php echo $theme ?>" data-iconpos="right" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-							   <h3>Chiropractic</h3>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Chripractic Treatment Options</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Physical Therapy</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">What is Chiropractic</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">freqently Asked Questions</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">New Patient Intake Forms</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Schedule a Consultation</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Dr. Blake Working</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Chiropractic Resources and Links</a>
-
-							</div>
-							<div data-role="collapsible" data-theme="<?php echo $theme ?>" data-content-theme="<?php echo $theme ?>" data-iconpos="right" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-							   <h3>Physician Referrals</h3>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Neck pain </a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Back Pain</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Headaches</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Disc Problems</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Medical Massage</a>							  
-							</div>
-							<div data-role="collapsible" data-theme="<?php echo $theme ?>" data-content-theme="<?php echo $theme ?>" data-iconpos="right" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-							   <h3>Massage</h3>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Sports Massage Therapy</a>
-							   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Prenatal Massage</a>							   
-							</div>
+							  	<h3>Menu</h3>
+							  	<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Printable Menu</a>
+							  	<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Chef Created Burgers</a>
+							  	<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Lean green Burgers</a>
+							  	<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Chicken</a>
+							  	<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Build Your Own</a>
+							  	<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Salads</a>			
+								<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Slides</a>
+								
+								<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Kid's Menu</a>								
+								<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Desserts & Drinks</a>
+								<a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Catering Menu</a>
+							</div>						
 						</div>						
 					
 				
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Testimonials</a>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">The T&E Story</a>
 					</div>
 				</div>
 				
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact US</a></div>
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Who's Talking ?</a></div>
+				</div>
+				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#page2" data-transition="<?php echo $transitionefect ?>">Events & Promotions</a></div>
+				</div>
+				
+				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+					<div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-mail ui-btn-icon-left buttons-radius" href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></div>
 				</div>				   
-		  </div>
-		  
-		 
+		  </div>		 
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!-- page 2 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -234,15 +223,13 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu">
 						<ul id="menu">
-							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Our Practice</a></li>
-							<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">Chiropractin</a></li>
+							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Menu</a></li>
+							<li><a href="#page2" data-transition="<?php echo $transitionefect ?>">The T&E Story</a></li>
 							<ul>
 								<li>
-									<a href="#page2" data-transition="<?php echo $transitionefect ?>">Massage</a>
+									<a href="#page2" data-transition="<?php echo $transitionefect ?>">Who's Talking ?</a>
 								</li>
-								<li>
-									<a href="#page2" data-transition="<?php echo $transitionefect ?>">testimonials</a>
-								</li>
+								
 							</ul>
 							<li><a href="#contcatform" data-transition="<?php echo $transitionefect ?>">Contact us</a></li>
 						</ul>

@@ -53,11 +53,11 @@
 }
 .slicknav_menu {
       
-    background:-webkit-linear-gradient(#CEB99D, rgb(73, 73, 73));
-    background:-moz-linear-gradient(#CEB99D, rgb(73, 73, 73));
-    background:-ms-linear-gradient(#CEB99D, rgb(73, 73, 73));
-    background:-o-linear-gradient(#CEB99D, rgb(73, 73, 73));
-    background:linear-gradient(#CEB99D, rgb(73, 73, 73));
+    background:-webkit-linear-gradient(#D76400, rgb(37, 31, 31));
+    background:-moz-linear-gradient(#D76400, rgb(37, 31, 31));
+    background:-ms-linear-gradient(#D76400, rgb(37, 31, 31));
+    background:-o-linear-gradient(#D76400, rgb(37, 31, 31));
+    background:linear-gradient(#D76400, rgb(37, 31, 31));
     
 }
 .slicknav_nav {
